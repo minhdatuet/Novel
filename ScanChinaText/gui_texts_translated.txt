@@ -1,0 +1,1944 @@
+1. Tăng thêm HEIC ủng hộ
+
+2. HEIC format support enabled
+
+3. pillow-heif not installed, HEIC format may not display properly
+
+4. Cà chua tiểu thuyết download khí - Phiên bản hiện đại
+
+5. 1200x800
+
+6. Thiết trí chủ đề màu sắc
+
+7. primary
+
+8. 1976D2',      # Chủ sắc điệu - Màu lam
+
+9. primary_dark
+
+10. 1565C0', # Màu xanh đậm
+
+11. secondary
+
+12. FF5722',    # Thứ yếu sắc - Màu cam
+
+13. success
+
+14. 4CAF50',      # Thành công sắc - Lục sắc
+
+15. warning
+
+16. FF9800',      # Cảnh cáo sắc - Màu cam
+
+17. error
+
+18. F44336',        # Sai lầm sắc - Màu đỏ
+
+19. background
+
+20. FAFAFA',   # Màu nền
+
+21. surface
+
+22. FFFFFF',      # Mặt ngoài sắc
+
+23. text_primary
+
+24. 212121', # Chủ yếu văn bản
+
+25. text_secondary
+
+26. 757575', # Thứ yếu văn bản
+
+27. border
+
+28. E0E0E0'        # Khung sắc
+
+29. Download trạng thái
+
+30. Trì hoãn khởi tạo, tránh tắc giới diện
+
+31. Tồn trữ kết quả tìm kiếm số liệu
+
+32. Tồn trữ trang bìa hình ảnh, phòng ngừa bị rác rưởi thu về
+
+33. Khởi tạo phiên bản tin tức cùng tự động đổi mới
+
+34. Thanh lý có thể lưu lại đổi mới dành trước văn kiện
+
+35. Phối trí văn kiện đường đi
+
+36. config.json
+
+37. Tăng thêm phối trí
+
+38. Thiết trí kiểu chữ
+
+39. Sáng tạo kiểu dáng
+
+40. Sáng tạo UI
+
+41. Kiểm tra đã có nghiệm chứng trạng thái
+
+42. Kiểm tra lần trước đổi mới trạng thái
+
+43. Lúc khởi động tự động kiểm tra đổi mới ( Vẻn vẹn quan phương tạo dựng )
+
+44. auto_check_update
+
+45. GUI khởi tạo sau khi hoàn thành thu hoạch API danh sách ( Trì hoãn thi hành, bảo đảm GUI đã hoàn toàn biểu hiện )
+
+46. Tại GUI khởi động sau khi hoàn thành yêu cầu nghiệm chứng mã nghiệm chứng đồng thời thu hoạch API
+
+47. title
+
+48. Hơi mềm nhã đen
+
+49. bold
+
+50. subtitle
+
+51. body
+
+52. button
+
+53. small
+
+54. Thiết trí ttk kiểu dáng
+
+55. Phối trí Notebook kiểu dáng
+
+56. Modern.TNotebook
+
+57. Modern.TNotebook.Tab
+
+58. Phối trí Frame kiểu dáng
+
+59. Card.TFrame
+
+60. flat
+
+61. Phối trí Progressbar kiểu dáng
+
+62. Modern.Horizontal.TProgressbar
+
+63. Sáng tạo giới diện bộ phận
+
+64. Chủ vật chứa
+
+65. Tiêu đề cột
+
+66. Chủ nội cho khu vực - Sử dụng nhãn hiệu trang
+
+67. Sáng tạo tiêu đề cột
+
+68. Tiêu đề
+
+69. 🍅 Cà chua tiểu thuyết download khí
+
+70. white
+
+71. Đề phụ
+
+72. Hiện đại hoá giới diện | Hiệu suất cao download | Nhiều cách thức ủng hộ
+
+73. Sáng tạo chủ nội cho khu vực
+
+74. Sáng tạo nhãn hiệu trang
+
+75. Lùng tìm nhãn hiệu trang tạm thời ẩn tàng ( Lùng tìm tiếp lời mất đi hiệu lực )
+
+76. Download nhãn hiệu trang
+
+77. 💾 Download quản lý
+
+78. Thiết trí nhãn hiệu trang
+
+79. ⚙️ Thiết trí
+
+80. Sáng tạo thông dụng tấm thẻ vật chứa, mang tiêu đề cột cùng bên trong bên cạnh cách, trở về nội dung vật chứa
+
+81. Nội dung vật chứa
+
+82. Sáng tạo thống nhất phong cách cái nút
+
+83. hand2
+
+84. Sáng tạo download nhãn hiệu trang
+
+85. Download thiết trí tấm thẻ
+
+86. 💾 Download thiết trí
+
+87. Sách ID đưa vào
+
+88. Sách ID:
+
+89. Bảo tồn đường đi
+
+90. Bảo tồn đường đi:
+
+91. Sử dụng phối trí bên trong bảo tồn đường đi
+
+92. save_path
+
+93. 📁 Xem
+
+94. Cách thức lựa chọn
+
+95. Loại văn bản:
+
+96. file_format
+
+97. txt
+
+98. w
+
+99. Nghe lén biến hóa đồng thời bảo tồn
+
+100. TXT
+
+101. EPUB
+
+102. epub
+
+103. Gỡ ra chương tiết download hình thức lựa chọn, chỉ lưu lại cả bản download
+
+104. Download cái nút
+
+105. 🚀 Bắt đầu download
+
+106. 🧹 Thanh lý thiết trí
+
+107. Tiến độ tấm thẻ
+
+108. 📈 Download tiến độ
+
+109. Thanh tiến độ
+
+110. determinate
+
+111. Tiến độ tin tức
+
+112. Chuẩn bị ổn thỏa
+
+113. Trạng thái nhãn hiệu
+
+114. Nhật ký tấm thẻ
+
+115. 📜 Download nhật ký
+
+116. Ngày Chí Văn bản khung
+
+117. Sáng tạo thiết trí nhãn hiệu trang
+
+118. Nghiệm chứng thiết trí tấm thẻ
+
+119. 🔒 Người máy nghiệm chứng
+
+120. Nghiệm chứng trạng thái biểu hiện
+
+121. Trạng thái: Kiểm tra bên trong...
+
+122. Lập tức đổi mới nghiệm chứng trạng thái
+
+123. Nghiệm chứng cái nút
+
+124. 🔒 Thủ động nghiệm chứng
+
+125. 🧹 Thanh trừ nghiệm chứng
+
+126. API quản lý cái nút
+
+127. 🔧 API quản lý
+
+128. Phiên bản tin tức tấm thẻ
+
+129. 📦 Phiên bản tin tức
+
+130. Trước mắt phiên bản tin tức cùng đổi mới thao tác
+
+131. Trước mắt phiên bản: {self.current_version}
+
+132. Tự động kiểm tra đổi mới chốt mở ( Nguyên mã / không chính thức tạo dựng cấm dùng )
+
+133. Lúc khởi động tự động kiểm tra đổi mới
+
+134. official_build
+
+135. Đi tới tuyên bố trang cái nút
+
+136. https://github.com/{__github_repo__}/releases/latest
+
+137. 🌐 Tuyên bố trang
+
+138. Kiểm tra đổi mới cái nút ( Nguyên mã / không chính thức tạo dựng nhảy chuyển tới Releases giao diện )
+
+139. 🔄 Kiểm tra đổi mới
+
+140. Liên quan tới tin tức tấm thẻ
+
+141. ℹ️ Liên quan tới
+
+142. nw
+
+143. Tăng thêm phối trí văn kiện
+
+144. r
+
+145. utf-8
+
+146. Trở về ngầm thừa nhận phối trí
+
+147. download_mode
+
+148. full
+
+149. Tăng thêm phối trí thất bại: {e}
+
+150. Bảo tồn phối trí văn kiện
+
+151. save_path_entry
+
+152. format_var
+
+153. Cố định vì cả bản download
+
+154. auto_update_var
+
+155. Phối trí đã bảo tồn đến: {self.config_file}
+
+156. Bảo tồn phối trí thất bại: {e}
+
+157. ========== Sự kiện phương pháp xử lý ==========
+
+158. Lùng tìm tiểu thuyết
+
+159. Cảnh cáo
+
+160. Xin điền vào lùng tìm từ mấu chốt
+
+161. Thanh không trước đây kết quả
+
+162. Thanh không trang bìa hình ảnh cache
+
+163. Biểu hiện đang lục soát nhắc nhở
+
+164. 🔍 Đang lục soát, mời chờ một chút...
+
+165. Tại giây mới trình bên trong thi hành lùng tìm
+
+166. Phán đoán phải chăng vì tiểu thuyết nội dung, loại bỏ đi nghe sách, manga chờ
+
+167. Kiểm tra nơi phát ra, loại bỏ nghe sách phòng làm việc
+
+168. source
+
+169. Sướng nghe phòng làm việc
+
+170. Có tiếng
+
+171. Nghe sách
+
+172. Kiểm tra tác giả chữ đoạn, nếu như bao hàm " Chủ bá " Từ mấu chốt, rất có thể là nghe sách
+
+173. author
+
+174. Chủ bá
+
+175. Phát thanh
+
+176. Đọc chậm
+
+177. Kiểm tra số lượng từ, nghe sách bình thường word_number vì 0 hoặc rất nhỏ
+
+178. word_number
+
+179. 0
+
+180. Nhưng muốn bài trừ một chút tình huống đặc biệt, nếu như là đang tại đăng nhiều kỳ tiểu thuyết
+
+181. creation_status
+
+182. 1
+
+183. serial_count
+
+184. Vẫn đang còn tiếp lại chương tiết đếm khá nhiều, có thể là tiểu thuyết
+
+185. Kiểm tra sách loại hình chữ đoạn
+
+186. book_type
+
+187. is_ebook
+
+188. book_type vì "1" Chính là nghe sách, "0" Là tiểu thuyết
+
+189. is_ebook vì "0" Chính là nghe sách, "1" Là sách điện tử / tiểu thuyết
+
+190. Kiểm tra phân loại, bài trừ minh xác không phải phân loại tiểu thuyết
+
+191. category
+
+192. Có tiếng sách
+
+193. Manga
+
+194. Tranh liên hoàn
+
+195. Vẽ bản
+
+196. Âm tần
+
+197. Kiểm tra sub_info chữ đoạn, nghe sách bình thường biểu hiện " Chương " Mà không phải " Người tại đọc "
+
+198. sub_info
+
+199. Chương
+
+200. Người tại đọc
+
+201. Khả năng này là nghe sách, thêm một bước kiểm tra
+
+202. Còn lại tình huống cho rằng là tiểu thuyết
+
+203. Lùng tìm tiểu thuyết tuyến trình hàm số
+
+204. Đang lục soát...
+
+205. Bảo đảm API đã khởi tạo
+
+206. data
+
+207. Từ kết quả tìm kiếm bên trong rút ra sách số liệu
+
+208. Kiểm tra mới số liệu kết cấu - API trở về là đơn giản hoá cách thức
+
+209. items
+
+210. Trực tiếp xử lý items trong danh sách sách số liệu
+
+211. book_name
+
+212. book_id
+
+213. Kiểm tra cũ số liệu kết cấu ( Kiêm dung tính xử lý )
+
+214. search_tabs
+
+215. Chỉ xử lý tiểu thuyết tương quan nhãn hiệu trang, loại bỏ đi nghe sách chờ loại hình khác
+
+216. tab_type
+
+217. tab_type=1 bình thường là tổng hợp / tiểu thuyết, loại bỏ đi nghe sách (tab_type=2) chờ loại hình khác
+
+218. book_data
+
+219. Loại bỏ tiểu thuyết nội dung, bài trừ nghe sách, manga chờ loại hình khác
+
+220. Tại chủ tuyến trình bên trong đổi mới UI
+
+221. Lùng tìm thất bại
+
+222. Không tìm được liên quan tiểu thuyết
+
+223. Lùng tìm thất bại hoặc không trở về hữu hiệu kết quả
+
+224. Lùng tìm thất bại: {str(e)}
+
+225. 🔍 Lùng tìm
+
+226. Đổi mới kết quả tìm kiếm biểu hiện
+
+227. Vì mỗi bản tiểu thuyết sáng tạo tấm thẻ
+
+228. Sáng tạo tiểu thuyết tấm thẻ
+
+229. Chủ tấm thẻ dàn khung
+
+230. Nội dung dàn khung
+
+231. Bên trái: Trang bìa hình ảnh
+
+232. Sáng tạo trang bìa giành chỗ phù
+
+233. 📚\n đang load...
+
+234. f0f0f0',
+
+235. Dị bước tăng thêm trang bìa
+
+236. thumb_url
+
+237. expand_thumb_url
+
+238. audio_thumb_url_hd
+
+239. Nếm thử tăng thêm trang bìa: {novel.get(
+
+240. Nếm thử tăng thêm trang bìa: {novel.get('book_name', 'Không biết')} - URL: {cover_url}
+
+241. Không biết
+
+242. Điều chỉnh thử: Biểu hiện tất cả khả năng trang bìa URL
+
+243. Tất cả trang bìa URL tuyển hạng: {debug_urls}
+
+244. Điều chỉnh thử: Kiểm tra PIL dẫn vào trạng thái
+
+245. PIL phiên bản: {PIL.__version__}, Image module: {Image}, ImageTk module: {ImageTk}
+
+246. PIL dẫn vào thất bại: {e}
+
+247. Bắt đầu download trang bìa: {cover_url}
+
+248. Trang bìa download thành công: {novel.get(
+
+249. Trang bìa download thành công: {novel.get('book_name', 'Không biết')}
+
+250. Chủ trang bìa download thất bại, nếm thử dự bị URL
+
+251. Nếu như chủ trang bìa tăng thêm thất bại, nếm thử khác trang bìa URL
+
+252. horiz_thumb_url
+
+253. Nếm thử dự bị trang bìa URL: {alt_url}
+
+254. Dự bị trang bìa download thành công
+
+255. Tất cả trang bìa đều tăng thêm thất bại, biểu hiện ngầm thừa nhận ô biểu tượng
+
+256. Tất cả trang bìa URL đều tăng thêm thất bại
+
+257. 📚\n tạm thời chưa có trang bìa
+
+258. f0f0f0'))
+
+259. Trang bìa tăng thêm dị thường: {e}
+
+260. 📚\n tăng thêm thất bại
+
+261. Không có tìm được trang bìa URL: {novel.get(
+
+262. Không có tìm được trang bìa URL: {novel.get('book_name', 'Không biết')}
+
+263. f0f0f0')
+
+264. Phía bên phải: Tin tức cặn kẽ
+
+265. Tên sách ( Tựa đề lớn )
+
+266. Cơ bản tin tức đi
+
+267. Tác giả
+
+268. Tác giả: {novel.get(
+
+269. Tác giả: {novel.get('author', 'Không biết')}
+
+270. Trạng thái
+
+271. Chữa trị trạng thái biểu hiện: creation_status vì'0'biểu thị kết thúc, '1'biểu thị vẫn đang còn tiếp
+
+272. Kết thúc
+
+273. Vẫn đang còn tiếp
+
+274.   •  {status_text}
+
+275. Phân loại
+
+276.   •  {novel.get(
+
+277.   •  {novel.get('category', 'Không biết')}
+
+278. Thống kê tin tức đi
+
+279. Số lượng từ
+
+280. {word_count // 10000} Vạn chữ
+
+281. {word_count} Chữ
+
+282. 📖 {word_display}
+
+283. Cho điểm
+
+284. score
+
+285. ⭐ {float(score):.1f} Phân
+
+286. ⭐ Không cho điểm
+
+287. Đọc nhân số
+
+288. read_cnt_text
+
+289. read_count
+
+290. {count // 10000} Vạn người tại đọc
+
+291. {count} Người tại đọc
+
+292. 👥 {read_cnt_text}
+
+293. Giới thiệu vắn tắt
+
+294. abstract
+
+295. book_abstract_v2
+
+296. Không giới thiệu vắn tắt
+
+297. Thao tác cái nút
+
+298. 💾 Download cuốn sách này
+
+299. Nhãn hiệu tin tức ( Nếu có )
+
+300. tags
+
+301. Nhiều nhất biểu hiện 5 nhãn hiệu
+
+302. Đổi mới trang bìa nhãn hiệu
+
+303. Kiểm tra nhãn hiệu còn tồn tại hay không
+
+304. Đem hình ảnh tồn trữ vào toàn cục cache bên trong, phòng ngừa bị rác rưởi thu về
+
+305. Đổi mới nhãn hiệu biểu hiện hình ảnh, gỡ ra văn bản
+
+306. Thiết trí nhãn hiệu hình ảnh trích dẫn
+
+307. Trang bìa đổi mới thành công, sách ID: {book_id}
+
+308. Nhãn hiệu đã bị tiêu hủy, không cách nào đổi mới trang bìa
+
+309. Đổi mới trang bìa nhãn hiệu thất bại: {e}
+
+310. 📚\n biểu hiện thất bại
+
+311. Download chọn trúng tiểu thuyết
+
+312. Hoán đổi khi đến tái nhãn hiệu trang đồng thời lấp vào ID
+
+313. Lựa chọn download nhãn hiệu trang
+
+314. Thành công
+
+315. Đã chọn chọn 《{novel.get(
+
+316. Đã chọn chọn 《{novel.get('book_name', 'Không biết')}》 dùng download
+
+317. Sai lầm
+
+318. Không cách nào thu hoạch sách ID
+
+319. Download đồng thời điều chỉnh hình ảnh lớn nhỏ
+
+320. === Bắt đầu download hình ảnh ===
+
+321. Nguyên thủy URL: {url}
+
+322. Mục tiêu kích thước: {size}
+
+323. URL vì khoảng không, trở về None
+
+324. Điều chỉnh thử: Kiểm tra trước mắt PIL module trạng thái
+
+325. PIL module kiểm tra thông qua
+
+326. CRITICAL: PIL module dẫn vào thất bại: {e}
+
+327. Căn cứ vào kết quả khảo nghiệm ưu hóa URL nếm thử trình tự
+
+328. .heic
+
+329. HEIC cách thức xác suất thành công cao nhất, ưu tiên sử dụng nguyên thủy HEIC URL
+
+330. Chỉ ở HEIC thất bại lúc nếm thử JPG(JPG thỉnh thoảng sẽ thành công )
+
+331. .jpg
+
+332. .HEIC
+
+333. Nhảy qua WebP cùng PNG, bởi vì khảo thí biểu hiện bọn chúng đều trở về 403
+
+334. Đối với không phải HEIC cách thức, trực tiếp sử dụng nguyên URL
+
+335. Nếm thử tăng thêm trang bìa: {len(urls_to_try)} Cái ưu hóa URL
+
+336. Tăng thêm thỉnh cầu đầu, mô phỏng trình duyệt phỏng vấn
+
+337. User-Agent
+
+338. Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+
+339. Referer
+
+340. https://www.tomatonovel.com/
+
+341. Accept
+
+342. image/webp,image/apng,image/jpeg,image/png,image/*,*/*;q=0.8
+
+343. Accept-Language
+
+344. zh-CN,zh;q=0.9,en;q=0.8
+
+345. Cache-Control
+
+346. no-cache
+
+347. Nếm thử URL {i+1}/{len(urls_to_try)}: {test_url[:100]}...
+
+348. Kiểm tra hưởng ứng nội dung loại hình
+
+349. content-type
+
+350. Hưởng ứng: {content_type}, lớn nhỏ: {content_length} bytes
+
+351. image/
+
+352. Vô hiệu hình ảnh hưởng ứng, nhảy qua
+
+353. Nếm thử mở ra hình ảnh
+
+354. Chuyển đổi hình ảnh hình thức
+
+355. RGBA
+
+356. Sáng tạo màu trắng bối cảnh
+
+357. RGB
+
+358. L
+
+359. Điều chỉnh lớn nhỏ
+
+360. Trang bìa tăng thêm thành công!
+
+361. PIL xử lý thất bại: {img_error}
+
+362. Thỉnh cầu thất bại: {req_error}
+
+363. URL xử lý thất bại: {e}
+
+364. Tất cả URL đều thất bại
+
+365. Dưới hình ảnh tái hoàn toàn thất bại: {e}
+
+366. Biểu hiện sách tường tình
+
+367. Thỉnh lựa chọn một bản tiểu thuyết
+
+368. Thu hoạch chọn trúng hướng dẫn tra cứu
+
+369. Tại giây mới trình bên trong thu hoạch tường tình
+
+370. Biểu hiện sách tường tình tuyến trình hàm số
+
+371. Thu hoạch sách tường tình thất bại: {str(e)}
+
+372. Sáng tạo tường tình cửa sổ
+
+373. Sách tường tình
+
+374. 1000x800
+
+375. Sáng tạo chủ dàn khung
+
+376. Thu hoạch chọn trúng tiểu thuyết tin tức
+
+377. Không tìm được chọn trúng tiểu thuyết tin tức
+
+378. Sáng tạo thượng bộ phân: Trang bìa cùng cơ bản tin tức
+
+379. Download đồng thời biểu hiện trang bìa
+
+380. Tại giây mới trình trung hạ tái hình ảnh
+
+381. Trước tiên biểu hiện đang load
+
+382. Trang bìa đang load...
+
+383. Phía bên phải: Cơ bản tin tức
+
+384. Cơ bản tin tức
+
+385. {float(score):.1f} Phân
+
+386. Không cho điểm
+
+387. Không
+
+388. Phần dưới phân: Hoàn chỉnh giới thiệu vắn tắt
+
+389. 📖 Tác phẩm giới thiệu vắn tắt
+
+390. Sáng tạo văn bản khung biểu hiện hoàn chỉnh giới thiệu vắn tắt
+
+391. Cắm vào hoàn chỉnh giới thiệu vắn tắt
+
+392. Tạm thời chưa có giới thiệu vắn tắt
+
+393. Dưới đáy cái nút
+
+394. ❌ Đóng lại
+
+395. Biểu hiện trang bìa hình ảnh
+
+396. Thanh không cha vật chứa
+
+397. Bảo trì trích dẫn
+
+398. Biểu hiện không trang bìa giành chỗ phù
+
+399. Từ tường tình cửa sổ download sách
+
+400. Biểu hiện nhãn hiệu cùng từ mấu chốt
+
+401. role
+
+402. 🏷️ Nhãn hiệu tin tức
+
+403. Nhân vật chủ yếu: {selected_novel.get(
+
+404. Nhân vật chủ yếu: {selected_novel.get('role')}\n
+
+405. Nhãn hiệu: {selected_novel.get(
+
+406. Nhãn hiệu: {selected_novel.get('tags')}
+
+407. Khóa lại con chuột vòng lăn sự kiện
+
+408. units
+
+409.
+
+410. Sáng tạo tường tình tấm thẻ
+
+411. Format số lượng từ biểu hiện
+
+412. Format cho điểm biểu hiện
+
+413. {float(score)/10:.1f} Phân
+
+414. Lựa chọn bảo tồn đường đi
+
+415. Tự động bảo tồn phối trí
+
+416. Ghi chép nhật ký
+
+417. [%H:%M:%S]
+
+418. \n
+
+419. Format thời gian biểu hiện
+
+420. {int(seconds)} Giây
+
+421. {int(seconds // 60)} Phân {int(seconds % 60)} Giây
+
+422. {int(hours)} Lúc {int(minutes)} Phân {int(secs)} Giây
+
+423. Tiến độ trở về điều
+
+424. Đổi mới thanh tiến độ
+
+425. value
+
+426. Tính toán còn thừa thời gian
+
+427. Tiến độ: {progress}% ( Dự tính còn thừa thời gian: {remaining_str})
+
+428. Download hoàn thành! Cuối cùng tốn thời gian: {elapsed_str}
+
+429. Tiến độ: {progress}%
+
+430. Xử lý bên trong...
+
+431. Đổi mới trạng thái nhãn hiệu
+
+432. Kiểm trắc download hoàn thành tin tức, tự động thanh lý chapter.json văn kiện
+
+433. Download hoàn thành
+
+434. Thất bại
+
+435. Chỉ có tại không phải đệ quy tình huống phía dưới mới ghi chép nhật ký, tránh đệ quy điều động
+
+436. _in_progress_callback
+
+437. Chỉ ghi chép trọng yếu tin tức, tránh quá nhiều nhật ký
+
+438. Hoàn thành
+
+439. {message}
+
+440. Sử dụng update_idletasks tránh đệ quy
+
+441. Im lặng xử lý dị thường, tránh đệ quy sai lầm
+
+442. Tự động thanh lý chapter.json văn kiện
+
+443. chapter.json
+
+444. Đã tự động thanh lý download trạng thái văn kiện: chapter.json
+
+445. Im lặng xử lý, tránh ảnh hưởng người sử dụng thể nghiệm
+
+446. Thanh lý thiết trí văn kiện
+
+447. Thanh lý GUI phối trí văn kiện
+
+448. gui_config.json
+
+449. downloader_state.json
+
+450. Thanh lý thành công
+
+451. Đã thanh lý văn kiện: {
+
+452. Đã thanh lý văn kiện: {', '.join(cleared_files)}
+
+453. Thanh lý thiết trí văn kiện: {
+
+454. Thanh lý thiết trí văn kiện: {', '.join(cleared_files)}
+
+455. Thanh lý kết quả
+
+456. Không có tìm được cần thanh lý thiết trí văn kiện
+
+457. Thanh lý thiết trí văn kiện thất bại: {str(e)}
+
+458. Bắt đầu download
+
+459. Xin điền vào sách ID
+
+460. Bảo tồn đường đi vô hiệu
+
+461. Download bên trong...
+
+462. Chuẩn bị bắt đầu download...
+
+463. Bắt đầu download sách: {book_id}
+
+464. Tại giây mới trình bên trong thi hành download
+
+465. Download tuyến trình hàm số - Hoàn toàn tổng thể enhanced_downloader.py cao tốc download công năng
+
+466. Kiểm tra API tiếp lời phải chăng đã thu hoạch
+
+467. api_endpoints
+
+468. API danh sách vì khoảng không, có thể nghiệm chứng thất bại hoặc không nghiệm chứng
+
+469. API không nghiệm chứng
+
+470. API tiếp lời danh sách vì khoảng không, có thể lúc khởi động nghiệm chứng thất bại.\n\n
+
+471. Thỉnh một lần nữa khởi động chương trình đồng thời hoàn thành nghiệm chứng mã nghiệm chứng, \n
+
+472. Hoặc tại thiết trí bên trong thủ động tiến hành nghiệm chứng.
+
+473. Bảo đảm API ví dụ thực tế tồn tại
+
+474. API ví dụ thực tế không tồn tại, đang lần nữa sáng tạo...
+
+475. Thiết trí tiến độ trở về điều
+
+476. GUI tiến độ trở về điều, đem download khí trở về thay đổi phát đến GUI
+
+477. Chỉ có hữu hiệu tiến độ mới đổi mới
+
+478. Chỉ đổi mới tin tức, không thay đổi tiến độ
+
+479. Thiết trí API tiến độ trở về điều
+
+480. Khởi tạo tăng cường hình download khí ( Tổng thể enhanced_downloader.py công năng )...
+
+481. Thu hoạch sách tin tức
+
+482. isSuccess
+
+483. errorMsg
+
+484. Sai lầm không biết
+
+485. Không hưởng ứng
+
+486. Thu hoạch sách tin tức thất bại: {error_msg}
+
+487. Kiểm tra API trở về tin tức
+
+488. message
+
+489. BOOK_REMOVE
+
+490. Sách {book_id} Đã bị gỡ ra hoặc không tồn tại
+
+491. Thu hoạch tên sách
+
+492. Không biết tác giả
+
+493. Không cách nào thu hoạch sách {book_id} Tin tức cặn kẽ
+
+494. Chuẩn bị sử dụng enhanced_downloader.py cao tốc download 《{book_name}》...
+
+495. Cả bản download - Trực tiếp sử dụng tăng cường hình download khí ( Gỡ ra chương tiết download hình thức )
+
+496. Khởi động enhanced_downloader.py cao tốc download hình thức...
+
+497. Trực tiếp sử dụng tăng cường hình download khí run_download phương pháp
+
+498. Tại tuyến trình bên trong vận hành tái, truyền lại GUI nghiệm chứng trở về điều
+
+499. Kiểm tra phải chăng bãi bỏ
+
+500. Download đã bãi bỏ
+
+501. Hoàn thành tin tức từ dưới tái khí nội bộ xử lý, không cần phải ở chỗ này lặp lại gửi đi
+
+502. Download thất bại: {error_msg}
+
+503. Thanh lý tiến độ trở về điều
+
+504. set_progress_callback
+
+505. Loại bỏ chương tiết trong nội dung hình mờ
+
+506. Thường gặp hình mờ hình thức
+
+507. Thỏ thỏ
+
+508. 【 Thỏ thỏ 】
+
+509. ( Thỏ thỏ )
+
+510. tutuxka
+
+511. TUTUXKA
+
+512. Thỏ tiểu thuyết
+
+513. Thỏ đọc
+
+514. Thỏ sách
+
+515. Có thể căn cứ vào cần tăng thêm càng nhiều hình mờ hình thức
+
+516. Loại bỏ cuối cùng hình mờ
+
+517. Loại bỏ đi cuối cùng hình mờ
+
+518. Chỉ lưu lại không phải khoảng không đi
+
+519. Bảo tồn vì TXT cách thức, bao hàm tin tức cặn kẽ
+
+520. =
+
+521. \n\n
+
+522. content
+
+523. Loại bỏ chương tiết cuối cùng " Thỏ thỏ " Hình mờ
+
+524. \n\n{title}\n\n{text_content}
+
+525. Bảo tồn vì EPUB cách thức, bao hàm trang bìa cùng tin tức cặn kẽ
+
+526. Sáng tạo EPUB sách
+
+527. Thiết trí sách nguyên số liệu
+
+528. Không biết tên sách
+
+529.  - {subtitle}
+
+530. unknown
+
+531. zh-cn
+
+532. Tăng thêm miêu tả
+
+533. DC
+
+534. description
+
+535. Tăng thêm trang bìa
+
+536. Microsoft YaHei
+
+537. SimSun
+
+538. 333; border-bottom: 2px solid #ccc; padding-bottom: 10px; }
+
+539. 555; margin-top: 30px; }
+
+540. f9f9f9; padding: 15px; border-left: 4px solid #4CAF50; margin: 20px 0; }
+
+541. 2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+
+542. nav
+
+543. style/nav.css
+
+544. text/css
+
+545. Sáng tạo sách tin tức giao diện
+
+546. stylesheet
+
+547. book-info
+
+548. Sách tin tức
+
+549. info.xhtml
+
+550. Tăng thêm chương tiết
+
+551. info
+
+552. Thứ {i+1} Chương
+
+553. Đem đổi đi chuyển đổi thành HTML đoạn
+
+554. <p>{para}</p>\n
+
+555. chapter
+
+556. chapter-title
+
+557. chapter_{i+1}.xhtml
+
+558. chapter_{i+1}
+
+559. Thiết trí mục lục cùng spine
+
+560. Tăng thêm hướng dẫn văn kiện
+
+561. Bảo tồn EPUB văn kiện
+
+562. Vì EPUB tăng thêm trang bìa
+
+563. Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+
+564. image/webp,image/apng,image/*,*/*;q=0.8
+
+565. Kiểm tra có phải là hay không hình ảnh
+
+566. Xác định văn kiện mở rộng tên
+
+567. jpeg
+
+568. jpg
+
+569. png
+
+570. webp
+
+571. heic
+
+572. EPUB không ủng hộ heic cách thức, chuyển đổi thành jpg
+
+573. Kiểm trắc đến HEIC cách thức trang bìa, chuyển đổi thành JPG cách thức
+
+574. Ngầm thừa nhận
+
+575. cover.{ext}
+
+576. Thành công tăng thêm trang bìa ( Cách thức: {ext})
+
+577. Tăng thêm trang bìa thất bại: {e}
+
+578. Tạo ra sách tin tức văn bản
+
+579. Tên sách: {book_data.get(
+
+580. Tên sách: {book_data.get('book_name', 'Không biết')}
+
+581. Tác giả: {book_data.get(
+
+582. Tác giả: {book_data.get('author', 'Không biết')}
+
+583. Trạng thái: {status_text}
+
+584. Phân loại: {book_data.get(
+
+585. Phân loại: {book_data.get('category', 'Không biết')}
+
+586. Số lượng từ: {word_display}
+
+587. Cho điểm: {score_display}
+
+588. Nơi phát ra: {book_data.get(
+
+589. Nơi phát ra: {book_data.get('source', 'Không biết')}
+
+590. Nhãn hiệu: {tags}
+
+591. \n giới thiệu vắn tắt: \n{description}
+
+592. Tạo ra sách tin tức HTML
+
+593.
+Tên sách: {book_data.get(
+
+594.
+
+Tên sách: {book_data.get('book_name', 'Không biết')}
+
+
+
+595.
+Tác giả: {book_data.get(
+
+596.
+
+Tác giả: {book_data.get('author', 'Không biết')}
+
+
+
+597.
+Trạng thái: {status_text}
+
+
+
+598.
+Phân loại: {book_data.get(
+
+599.
+
+Phân loại: {book_data.get('category', 'Không biết')}
+
+
+
+600.
+Số lượng từ: {word_display}
+
+
+
+601.
+Cho điểm: {score_display}
+
+
+
+602.
+Nơi phát ra: {book_data.get(
+
+603.
+
+Nơi phát ra: {book_data.get('source', 'Không biết')}
+
+
+
+604.
+Nhãn hiệu: {tags}
+
+
+
+605.
+{para}
+
+
+
+606.
+Giới thiệu vắn tắt:
+{desc_html}
+
+
+607. Download sau khi hoàn thành nhân viên vệ sinh làm
+
+608. Bảo đảm download sau khi hoàn thành thanh lý trạng thái văn kiện
+
+609. Khởi tạo API, chỉ ở lúc cần phải điều động
+
+610. Sáng tạo GUI nghiệm chứng mã xử lý trở về điều
+
+611. Tại GUI bên trong xử lý nghiệm chứng mã đưa vào
+
+612. token
+
+613. Làm cho khung chat trở thành mô hình thái cửa sổ đồng thời chờ đợi
+
+614. Sáng tạo API ví dụ thực tế, truyền vào GUI trở về điều
+
+615. Chú ý: Không ở nơi này điều động dự tăng thêm, tránh lặp lại phát động nghiệm chứng
+
+616. Tại lúc khởi động yêu cầu nghiệm chứng mã nghiệm chứng đồng thời thu hoạch API danh sách
+
+617. Chương trình khởi động hoàn thành, chuẩn bị tiến hành API nghiệm chứng...
+
+618. Trước tiên kiểm tra phải chăng có bảo tồn API
+
+619. Có bảo tồn API, hỏi thăm người sử dụng lựa chọn
+
+620. Không có bảo tồn API, tiến hành mạng lưới nghiệm chứng
+
+621. Khởi động nghiệm chứng thất bại: {str(e)}
+
+622. Khởi động sai lầm
+
+623. Biểu hiện API lựa chọn khung chat
+
+624. API lựa chọn
+
+625. 500x400
+
+626. Ở giữa biểu hiện
+
+627. +%d+%d
+
+628. choice
+
+629. Phát hiện bảo tồn API phối trí
+
+630. API tin tức biểu hiện
+
+631. last_update
+
+632. api_count
+
+633. batch_enabled
+
+634. Khải dụng
+
+635. Cấm dùng
+
+636. Cái nút dàn khung
+
+637. use_saved
+
+638. update
+
+639. clear_and_update
+
+640. Sử dụng bảo tồn API
+
+641. Đổi mới API
+
+642. Thanh trừ đồng thời đổi mới
+
+643. Thanh trừ đều lần nữa thu hoạch
+
+644. Chờ đợi người sử dụng lựa chọn
+
+645. Xử lý người sử dụng lựa chọn
+
+646. Người sử dụng lựa chọn sử dụng bảo tồn API
+
+647. Đã ứng dụng bảo tồn API phối trí
+
+648. Người sử dụng lựa chọn đổi mới API
+
+649. Người sử dụng lựa chọn thanh trừ đều lần nữa thu hoạch API
+
+650. Người sử dụng bãi bỏ lựa chọn, sử dụng bảo tồn API
+
+651. Thi hành mạng lưới nghiệm chứng
+
+652. Trước tiên kiểm tra mạng lưới kết nối
+
+653. Kiểm tra mạng lưới kết nối...
+
+654. https://www.baidu.com
+
+655. Mạng lưới kết nối bình thường
+
+656. Mạng lưới kết nối dị thường, trạng thái mã: {test_response.status_code}
+
+657. Mạng lưới kết nối khảo thí thất bại: {str(net_e)}
+
+658. Mạng lưới kết nối vấn đề
+
+659. Mạng lưới kết nối khảo thí thất bại: {str(net_e)}\n\n
+
+660. Thỉnh kiểm tra mạng lưới kết nối sau khởi động lại chương trình.
+
+661. Biểu hiện hoan nghênh tin tức cùng nghiệm chứng yêu cầu
+
+662. Hoan nghênh sử dụng cà chua tiểu thuyết download khí!\n\n
+
+663. Vì bình thường sử dụng download công năng, cần trước tiến hành người máy nghiệm chứng.\n
+
+664. Nghiệm chứng sau khi thành công, API tiếp lời đem bảo tồn đến trong bộ nhớ cung cấp download sử dụng.\n\n
+
+665. Click xác định bắt đầu nghiệm chứng
+
+666. Cung cấp nhảy qua tuyển hạng
+
+667. Nghiệm chứng mã nghiệm chứng
+
+668. 400x300
+
+669. Hoan nghênh sử dụng cà chua tiểu thuyết download khí!
+
+670. Lời thuyết minh bản
+
+671. Vì bình thường sử dụng download công năng, đề nghị trước tiến hành người máy nghiệm chứng.\n
+
+672. Nếu như trước mắt mạng lưới hoàn cảnh không cách nào kết nối nghiệm chứng server, \n
+
+673. Ngài cũng có thể lựa chọn nhảy qua nghiệm chứng, sau đó tại thiết trí bên trong thủ động nghiệm chứng.
+
+674. verify
+
+675. skip
+
+676. cancel
+
+677. 🔒 Bắt đầu nghiệm chứng
+
+678. ⏭️ Nhảy qua nghiệm chứng
+
+679. ❌ Bãi bỏ
+
+680. Người sử dụng bãi bỏ khởi động
+
+681. Người sử dụng nhảy qua nghiệm chứng
+
+682. Nghiệm chứng đã nhảy qua
+
+683. Đã nhảy qua khởi động nghiệm chứng.\n\n
+
+684. Như cần download công năng, xin chờ tại thiết trí bên trong thủ động tiến hành nghiệm chứng.
+
+685. user_choice == "verify" Tiếp tục nghiệm chứng quá trình
+
+686. Bảo đảm API ví dụ thực tế đã sáng tạo
+
+687. Sáng tạo API ví dụ thực tế...
+
+688. API ví dụ thực tế sáng tạo thất bại
+
+689. Khởi tạo thất bại
+
+690. Không cách nào sáng tạo API ví dụ thực tế, thỉnh kiểm tra mạng lưới kết nối sau khởi động lại chương trình.
+
+691. Cưỡng chế tiến hành API khởi tạo ( Này lại phát động nghiệm chứng mã nghiệm chứng )
+
+692. Bắt đầu nghiệm chứng mã nghiệm chứng quá trình...
+
+693. Đang tại kết nối server thu hoạch nghiệm chứng mã khiêu chiến...
+
+694. Nghiệm chứng mã nghiệm chứng thành công!API tiếp lời đã bảo tồn đến bộ nhớ
+
+695. Nghiệm chứng thành công
+
+696. Nghiệm chứng mã nghiệm chứng thành công!\n đã thu hoạch {api_count} Cái API tiếp lời đồng thời bảo tồn đến bộ nhớ.\n bây giờ có thể bình thường sử dụng download chức năng.
+
+697. Nghiệm chứng mã nghiệm chứng thất bại
+
+698. Nghiệm chứng thất bại
+
+699. Nghiệm chứng mã nghiệm chứng thất bại. Có thể nguyên nhân: \n
+
+700. 1. Mạng lưới kết nối không ổn định \n
+
+701. 2. Server tạm thời không cách nào phỏng vấn \n
+
+702. 3. Nghiệm chứng mã đưa vào sai lầm hoặc quá thời hạn \n\n
+
+703. Phương án giải quyết: \n
+
+704. • Kiểm tra mạng lưới kết nối sau khởi động lại chương trình thử lại \n
+
+705. • Tại thiết trí bên trong thủ động tiến hành nghiệm chứng \n
+
+706. • Liên hệ khai phá giả thu hoạch trợ giúp
+
+707. Khởi động nghiệm chứng dị thường: {error_msg}
+
+708. Khởi động nghiệm chứng sai lầm
+
+709. Lúc khởi động nghiệm chứng quá trình xuất hiện dị thường: \n{error_msg}\n\n
+
+710. • Khởi động lại chương trình thử lại \n
+
+711. • Kiểm tra mạng lưới kết nối cùng tường lửa thiết trí
+
+712. Giữ lại nguyên phương pháp để bảo trì kiêm dung tính ( Đã vứt bỏ, bây giờ sử dụng _require_captcha_verification_at_startup)
+
+713. Giữ lại nguyên phương pháp để bảo trì kiêm dung tính, bây giờ điều động phương pháp mới
+
+714. Kiểm tra API sai lầm đồng thời cung cấp phương án giải quyết
+
+715. Kiểm tra sai lầm thông tin bên trong phải chăng bao hàm nghiệm chứng tương quan từ mấu chốt
+
+716. 403
+
+717. FORBIDDEN
+
+718. UNAUTHORIZED
+
+719. 401
+
+720. Nghiệm chứng
+
+721. captcha
+
+722. verification
+
+723. Biểu hiện nghiệm chứng mã phương án giải quyết khung chat
+
+724. Biểu hiện đồng dạng sai lầm khung chat
+
+725. Thao tác thất bại
+
+726. Thao tác thất bại: {error_message}\n\n nếu như kéo dài xảy ra vấn đề, có thể cần phải tiến hành nghiệm chứng.
+
+727. Biểu hiện nghiệm chứng phương án giải quyết khung chat
+
+728. Cần nghiệm chứng
+
+729. Thao tác thất bại, có thể cần phải tiến hành người máy nghiệm chứng: \n\n{error_message}\n\n phải chăng bây giờ tiến hành nghiệm chứng?
+
+730. Biểu hiện nghiệm chứng mã khung chat
+
+731. {base_url}/api/get-captcha-challenge
+
+732. Thu hoạch nghiệm chứng mã URL
+
+733. X-Auth-Token
+
+734. Content-Type
+
+735. application/json
+
+736. Cùng mạng lưới tầng bảo trì nhất trí, đóng lại SSL nghiệm chứng, tránh bộ phận hoàn cảnh giấy chứng nhận kiểm tra thất bại
+
+737. challenge_url
+
+738. Lui trở về đến cố định URL, bảo đảm chắc là có thể biểu hiện khung nhập liệu
+
+739. https://dlbkltos.s7123.xyz:5080/captcha
+
+740. Cảng bổ tu
+
+741. dlbkltos.s7123.xyz
+
+742. :5080
+
+743. dlbkltos.s7123.xyz:5080
+
+744. Nghiệm chứng mã thu hoạch thất bại
+
+745. Thu hoạch nghiệm chứng mã lúc phạm sai lầm: {str(e)}
+
+746. Vì API khởi tạo sáng tạo nghiệm chứng mã khung chat
+
+747. API khởi tạo cần nghiệm chứng
+
+748. 600x450
+
+749. 600x450+{x}+{y}
+
+750. 🔒 API cần nghiệm chứng
+
+751. Mở ra nghiệm chứng giao diện
+
+752. Nghiệm chứng URL cái nút
+
+753. Cưỡng chế sử dụng cố định nghiệm chứng giao diện URL
+
+754. 🌐 Mở ra nghiệm chứng giao diện
+
+755. Sử dụng càng cường tráng copy link ( Ưu tiên phục vụ khí trở về, thứ yếu cố định URL, đồng thời bổ tu cảng )
+
+756. 📋 Phục chế nghiệm chứng kết nối
+
+757. Nghiệm chứng lệnh bài đưa vào
+
+758. Nghiệm chứng lệnh bài:
+
+759. Bảo tồn token đến hoàn cảnh lượng biến đổi ( Vẻn vẹn lần này hội thoại hữu hiệu )
+
+760. TOMATO_VERIFICATION_TOKEN
+
+761. Tại tiêu hủy khung chat phía trước bắn ra nhắc nhở, đồng thời lấy căn cửa sổ vi phụ cấp, tránh đã tiêu hủy cửa sổ xem như cha cấp đưa đến sai lầm
+
+762. 🎉 Nghiệm chứng lệnh bài đã bảo tồn, API khởi tạo tiếp tục...
+
+763. Nhắc nhở
+
+764. Xin điền vào nghiệm chứng lệnh bài
+
+765. Khoảng không lệnh bài biểu thị nhảy qua
+
+766. ✅ Xác nhận nghiệm chứng
+
+767. Khóa lại nút Enter
+
+768.
+
+769. Cửa sổ đóng lại xử lý
+
+770. None biểu thị bãi bỏ
+
+771. WM_DELETE_WINDOW
+
+772. Thiết trí tiêu điểm
+
+773. Sáng tạo nghiệm chứng mã khung chat ( Dùng thủ động nghiệm chứng )
+
+774. 🔒 Cần người cơ nghiệm chứng
+
+775. Thiết trí khung chat vì mô hình thái
+
+776. +{x}+{y}
+
+777. 🔒 An toàn nghiệm chứng
+
+778. Nội dung khu vực
+
+779. Xác nhận
+
+780. Phục chế URL cái nút
+
+781. Cái nút khu vực
+
+782. Đưa vào sai lầm
+
+783. Bảo tồn nghiệm chứng lệnh bài đến hoàn cảnh lượng biến đổi ( Vẻn vẹn lần này hội thoại hữu hiệu )
+
+784. Khảo thí nghiệm chứng lệnh bài có hữu hiệu hay không
+
+785. Nhảy qua nghiệm chứng
+
+786. Nhảy qua nghiệm chứng có thể dẫn đến bộ phận công năng không cách nào sử dụng.\n\n nhất định phải nhảy qua nghiệm chứng sao?
+
+787. Nút Enter xác nhận
+
+788. Phục chế văn bản đến cắt dán tấm
+
+789. Phục chế thành công
+
+790. Nghiệm chứng kết nối đã phục chế đến cắt dán tấm
+
+791. Phục chế thất bại
+
+792. Không cách nào phục chế đến cắt dán tấm: {str(e)}
+
+793. X-Verification-Token
+
+794. Khảo thí API phỏng vấn
+
+795. Nghiệm chứng sai lầm
+
+796. Nghiệm chứng quá trình bên trong phạm sai lầm: {str(e)}
+
+797. 🎉 Người máy nghiệm chứng thông qua! Bây giờ có thể bình thường sử dụng tất cả công năng.
+
+798. Nghiệm chứng sau khi thành công khởi tạo API
+
+799. Đổi mới trạng thái biểu hiện
+
+800. Đã nghiệm chứng ✓
+
+801. Nghiệm chứng lệnh bài vô hiệu hoặc đã qua kỳ, thỉnh một lần nữa thu hoạch.
+
+802. Thủ động tiến hành nghiệm chứng đồng thời thu hoạch API tiếp lời
+
+803. Nhắc nhở người sử dụng sắp tiến hành nghiệm chứng
+
+804. Thủ động nghiệm chứng
+
+805. Sắp tiến hành nghiệm chứng mã nghiệm chứng đồng thời thu hoạch API tiếp lời.\n\n phải chăng tiếp tục?
+
+806. question
+
+807. yes
+
+808. Không cách nào sáng tạo API ví dụ thực tế
+
+809. Cưỡng chế một lần nữa thu hoạch API tiếp lời
+
+810. Thanh không hiện hữu tiếp lời
+
+811. Tiến hành nghiệm chứng cùng API thu hoạch
+
+812. Đang tại nghiệm chứng...
+
+813. Nghiệm chứng thành công, đổi mới trạng thái
+
+814. Nghiệm chứng thành công ✓ ( Đã thu hoạch {api_count} Cái API tiếp lời )
+
+815. Nghiệm chứng mã nghiệm chứng thành công!\n đã thu hoạch {api_count} Cái API tiếp lời.\n bây giờ có thể bình thường sử dụng download chức năng.
+
+816. Nghiệm chứng mã nghiệm chứng thất bại, thỉnh thử lại.
+
+817. Nghiệm chứng dị thường
+
+818. Nghiệm chứng quá trình xuất hiện dị thường: {error_msg}
+
+819. Thanh trừ nghiệm chứng lệnh bài cùng API tiếp lời
+
+820. Thanh trừ nghiệm chứng
+
+821. Nhất định phải thanh trừ nghiệm chứng lệnh bài cùng API tiếp lời sao?\n thanh trừ sau cần một lần nữa nghiệm chứng mới có thể download.
+
+822. Thanh trừ hoàn cảnh lượng biến đổi bên trong nghiệm chứng lệnh bài
+
+823. Thanh trừ trong bộ nhớ API tiếp lời
+
+824. Đã thanh trừ nghiệm chứng lệnh bài cùng API tiếp lời
+
+825. Thanh trừ thành công
+
+826. Nghiệm chứng lệnh bài cùng API tiếp lời đã thanh trừ \n cần một lần nữa nghiệm chứng mới có thể download
+
+827. Thanh trừ thất bại
+
+828. Thanh trừ thất bại: {str(e)}
+
+829. Đổi mới nghiệm chứng trạng thái biểu hiện
+
+830. verification_status_label
+
+831. Trạng thái: {status_text}
+
+832. Biểu hiện API quản lý khung chat
+
+833. API quản lý
+
+834. 600x500
+
+835. Trước mắt API trạng thái
+
+836. batch_config
+
+837. enabled
+
+838. Bảo tồn API tin tức
+
+839. Bảo tồn API tin tức: Có thể dùng
+
+840. Bảo tồn API tin tức: Không
+
+841. Thao tác cái nút dàn khung
+
+842. Không có bảo tồn API phối trí
+
+843. Nhất định phải thanh trừ bảo tồn API phối trí sao?
+
+844. Đã thanh trừ bảo tồn API phối trí
+
+845. api_backup_{int(time.time())}.json
+
+846. timestamp
+
+847. API phối trí đã dẫn xuất đến: {filename}
+
+848. Dẫn xuất thất bại: {str(e)}
+
+849. Trước mắt không có có thể dẫn xuất API phối trí
+
+850. Đổi mới API
+
+851. 🔄 Đổi mới API
+
+852. Ứng dụng bảo tồn API
+
+853. 📥 Ứng dụng bảo tồn API
+
+854. Dẫn xuất API
+
+855. 📤 Dẫn xuất API phối trí
+
+856. Thanh trừ bảo tồn API
+
+857. 🗑️ Thanh trừ bảo tồn API
+
+858. Kiểm tra API tiếp lời phải chăng đã thu hoạch
+
+859. Đã nghiệm chứng ✓ ( Đã thu hoạch {api_count} Cái API tiếp lời )
+
+860. Đã bảo tồn nghiệm chứng lệnh bài nhưng API tiếp lời không thu hoạch
+
+861. Không nghiệm chứng ( Cần phải tiến hành nghiệm chứng mã nghiệm chứng )
+
+862. Tại hậu đài im lặng kiểm tra đổi mới
+
+863. Im lặng kiểm tra đổi mới thất bại: {e}
+
+864. Thủ động kiểm tra đổi mới ( Mang nhắc nhở )
+
+865. Kiểm tra đổi mới
+
+866. Trước mắt đã là mới nhất phiên bản
+
+867. Kiểm tra đổi mới thất bại
+
+868. Pop-up nhắc nhở người sử dụng đổi mới
+
+869. version
+
+870. ?
+
+871. Phát hiện phiên bản mới v{ver}, phải chăng bây giờ đổi mới?
+
+872. \n\n đổi mới nội dung:\n{body[:800]}
+
+873. Hạn chế biểu hiện chiều dài
+
+874. Phát hiện phiên bản mới
+
+875. Bắt đầu đổi mới ( Điều động bên ngoài kịch bản gốc xử lý tất cả đổi mới thao tác )
+
+876. Bắt đầu đổi mới đến phiên bản: {update_info.get(
+
+877. Bắt đầu đổi mới đến phiên bản: {update_info.get('version', 'unknown')}
+
+878. Sáng tạo bên ngoài đổi mới kịch bản gốc
+
+879. Biểu hiện ra khỏi nhắc nhở
+
+880. Đổi mới khởi động
+
+881. Đổi mới chương trình đã khởi động, ứng dụng chương trình đem đóng lại.\n
+
+882. Đổi mới sau khi hoàn thành sẽ tự động khởi động lại chương trình.
+
+883. Lập tức ra khỏi ứng dụng chương trình
+
+884. Khởi động bên ngoài đổi mới chương trình thất bại: {e}
+
+885. Đổi mới thất bại
+
+886. Khởi động đổi mới chương trình thất bại: {e}
+
+887. Sáng tạo đồng thời khởi động bên ngoài đổi mới kịch bản gốc
+
+888. Thu hoạch bên ngoài kịch bản gốc đường đi
+
+889. external_updater.py
+
+890. Kiểm tra bên ngoài kịch bản gốc có tồn tại hay không
+
+891. Bên ngoài đổi mới kịch bản gốc không tồn tại: {external_script}
+
+892. Đem đổi mới tin tức danh sách hóa thành JSON ký tự xuyên
+
+893. Sáng tạo phê xử lý kịch bản gốc hoặc shell kịch bản gốc khởi động bên ngoài đổi mới chương trình
+
+894. Windows
+
+895. Windows phê xử lý kịch bản gốc
+
+896. ', '\\
+
+897. \\"
+
+898. {script_dir}
+
+899. {external_script}
+
+900. {escaped_json}
+
+901. start_update.bat
+
+902. gbk
+
+903. Khởi động phê xử lý kịch bản gốc ( Thoát ly đài điều khiển )
+
+904. cmd
+
+905. /c
+
+906. Unix shell kịch bản gốc
+
+907. !/bin/bash
+
+908. {update_info_json}
+
+909. start_update.sh
+
+910. Khởi động shell kịch bản gốc
+
+911. Bên ngoài đổi mới kịch bản gốc đã khởi động
+
+912. Sáng tạo bên ngoài đổi mới kịch bản gốc thất bại: {e}
+
+913. Thu hoạch trước mắt chương trình mục lục cùng có thể thi hành văn kiện đường đi
+
+914. frozen
+
+915. {exe_name}.backup
+
+916. backup
+
+917. Thanh lý một cái dành trước văn kiện
+
+918. Đã thanh lý lưu lại dành trước văn kiện
+
+919. Thanh lý dành trước văn kiện thất bại: {e}
+
+920. Thanh lý dành trước mục lục
+
+921. Kiểm tra mục lục phải chăng vì khoảng không
+
+922. Đã thanh lý trống không dành trước mục lục
+
+923. Nếu như mục lục không vì khoảng không, nếm thử xóa bỏ trong đó dành trước văn kiện
+
+924. .backup
+
+925. Lần nữa kiểm tra phải chăng vì khoảng không
+
+926. Đã thanh lý dành trước mục lục
+
+927. Thanh lý dành trước mục lục thất bại: {e}
+
+928. Thanh lý dành trước văn kiện lúc phạm sai lầm: {e}
+
+929. Kiểm tra lần trước đổi mới trạng thái
+
+930. log_exists
+
+931. update_success
+
+932. last_update_time
+
+933. Lần trước đổi mới thành công hoàn thành tại: {status[
+
+934. Lần trước đổi mới thành công hoàn thành tại: {status['last_update_time']}
+
+935. error_message
+
+936. Lần trước đổi mới thất bại: {status[
+
+937. Lần trước đổi mới thất bại: {status['error_message']}
+
+938. Có thể ở đây tăng thêm người sử dụng hữu hảo nhắc nhở
+
+939. Tại GUI hoàn toàn tăng thêm sau biểu hiện đổi mới thất bại nhắc nhở
+
+940. Đổi mới trạng thái
+
+941. Kiểm trắc đến lần trước đổi mới có thể thất bại: {status[
+
+942. Kiểm trắc đến lần trước đổi mới có thể thất bại: {status['error_message']}\n
+
+943. Đề nghị một lần nữa vận hành đổi mới hoặc kiểm tra chương trình hoàn chỉnh tính chất.
+
+944. Kiểm trắc đến đổi mới nhật ký, nhưng không cách nào xác định đổi mới trạng thái
+
+945. Kiểm tra đổi mới trạng thái thất bại: {e}
+
+946. Xử lý trong quá trình đổi mới sự kiện trở về điều ( Bên ngoài kịch bản gốc xử lý, không cần GUI hưởng ứng )
+
+947. Bởi vì đổi mới bây giờ từ bên ngoài kịch bản gốc hoàn toàn xử lý, GUI không còn cần hưởng ứng những sự kiện này
+
+948. Chỉ ghi chép nhật ký liền có thể
+
+949. download_error
+
+950. install_error
+
+951. Đổi mới sự kiện: {event} - {data}
+
+952. Chương trình xử lý chính cửa vào
+
+
+

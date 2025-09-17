@@ -1,0 +1,33 @@
+🤖 DỊCH TEXT TIẾNG TRUNG SANG TIẾNG VIỆT
+
+📄 THÔNG TIN:
+- Tổng số text cần dịch: 953
+- File chứa text: gui_texts_only.txt
+- File này chứa danh sách text tiếng Trung được đánh số từ 1-953
+
+📋 YÊU CẦU DỊCH:
+- Dịch chính xác, tự nhiên sang tiếng Việt
+- Giữ nguyên format số thứ tự (1. 2. 3...)
+- Với text kỹ thuật (programming): dịch sát nghĩa, dễ hiểu
+- Với text giao diện: dịch ngắn gọn, thân thiện  
+- Không thêm bớt nội dung
+
+🔗 CÁCH THỰC HIỆN:
+1. Mở file: gui_texts_only.txt
+2. Đọc toàn bộ 953 dòng text tiếng Trung
+3. Dịch từng dòng sang tiếng Việt
+
+✅ FORMAT TRẢ VỀ:
+Chỉ trả về danh sách đã dịch theo format:
+1. [bản dịch tiếng Việt của text 1]
+2. [bản dịch tiếng Việt của text 2]
+3. [bản dịch tiếng Việt của text 3]
+...
+953. [bản dịch tiếng Việt của text 953]
+
+⚠️ LƯU Ý:
+- Chỉ trả về bản dịch, không giải thích thêm
+- Giữ nguyên số thứ tự như trong file gốc
+- Đảm bảo dịch đủ 953 dòng
+
+Cảm ơn bạn! 🙏

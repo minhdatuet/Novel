@@ -1,0 +1,36 @@
+{
+  "openrouter_api_key": "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",
+  "translation_model": "qwen/qwen-2.5-72b-instruct:free",
+  "analysis_model": "qwen/qwen-2.5-72b-instruct:free",
+  "max_segment_length": 500,
+  "backup_interval": 10,
+  "auto_backup": true,
+  "supported_encodings": ["utf-8", "gbk", "gb2312", "utf-16"],
+  "chapter_patterns": [
+    "CHƯƠNG\\s*(\\d+):[^\\n]*\\n[=]+\\n[\\s\\n]*(.+?)(?=\\n)",
+    "第(\\d+)章[：:\\s]*(.+?)(?=\\n)",
+    "第(\\d+)回[：:\\s]*(.+?)(?=\\n)",
+    "Chapter\\s*(\\d+)[：:\\s]*(.+?)(?=\\n)",
+    "(\\d+)\\.\\s*(.+?)(?=\\n)"
+  ],
+  "available_models": {
+    "qwen/qwen-2.5-coder-32b-instruct:free": "🆓 Qwen 2.5 Coder 32B - MIỄN PHÍ",
+    "qwen/qwen-2.5-72b-instruct:free": "🆓 Qwen 2.5 72B - MIỄN PHÍ (tốt nhất)",
+    "google/gemma-2-9b-it:free": "🆓 Gemma 2 9B - MIỄN PHÍ (nhẹ)",
+    "meta-llama/llama-3.1-8b-instruct:free": "🆓 Llama 3.1 8B - MIỄN PHÍ"
+  },
+  "ai_prompts": {
+    "analysis_system": "Bạn là một chuyên gia phân tích văn học tiếng Trung, giỏi dịch thuật sang tiếng Việt.",
+    "translation_system": "Bạn là một dịch giả chuyên nghiệp với kinh nghiệm trong thể loại tiểu thuyết đô thị ngôn tình Trung Quốc. Sử dụng phong cách hiện đại ngôn tình, ngôn ngữ giàu hình ảnh, đại từ xưng hô hắn/nàng/ta/ngươi, và danh từ riêng chuyển âm Hán Việt."
+  },
+  "quality_settings": {
+    "min_confidence_threshold": 0.1,
+    "rate_limit_delay": 1,
+    "max_retries": 3
+  },
+  "openrouter_settings": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "site_url": "https://novel-translator.local",
+    "site_name": "AI Novel Translator"
+  }
+}
