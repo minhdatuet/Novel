@@ -57,10 +57,32 @@ class SangTacVietGUI:
         self.url_entry = ttk.Entry(url_frame, textvariable=self.url_var, width=60)
         self.url_entry.grid(row=0, column=1, sticky=(tk.W, tk.E), padx=(0, 10))
         
-        ttk.Label(url_frame, text="Max Pages:").grid(row=1, column=0, sticky=tk.W, padx=(0, 10), pady=(10, 0))
+        # Frame cho các tham số trang
+        pages_frame = ttk.Frame(url_frame)
+        pages_frame.grid(row=1, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(10, 0))
+        pages_frame.columnconfigure(2, weight=1)
+        
+        # Trang bắt đầu
+        ttk.Label(pages_frame, text="Start Page:").grid(row=0, column=0, sticky=tk.W, padx=(0, 5))
+        self.start_page_var = tk.StringVar(value="1")
+        start_spinbox = ttk.Spinbox(pages_frame, from_=1, to=999, textvariable=self.start_page_var, width=8)
+        start_spinbox.grid(row=0, column=1, padx=(0, 20))
+        
+        # Số trang
+        ttk.Label(pages_frame, text="Pages Count:").grid(row=0, column=2, sticky=tk.W, padx=(0, 5))
         self.pages_var = tk.StringVar(value="5")
-        pages_spinbox = ttk.Spinbox(url_frame, from_=1, to=50, textvariable=self.pages_var, width=10)
-        pages_spinbox.grid(row=1, column=1, sticky=tk.W, pady=(10, 0))
+        pages_spinbox = ttk.Spinbox(pages_frame, from_=1, to=100, textvariable=self.pages_var, width=8)
+        pages_spinbox.grid(row=0, column=3, padx=(0, 20))
+        
+        # Hiển thị range
+        self.page_range_var = tk.StringVar()
+        self.page_range_label = ttk.Label(pages_frame, textvariable=self.page_range_var, foreground="blue", font=('Arial', 9))
+        self.page_range_label.grid(row=0, column=4, sticky=tk.W, padx=(10, 0))
+        
+        # Bind events để cập nhật range
+        self.start_page_var.trace('w', self.update_page_range)
+        self.pages_var.trace('w', self.update_page_range)
+        self.update_page_range()
         
         # Control Buttons
         button_frame = ttk.Frame(main_frame)
@@ -126,6 +148,16 @@ class SangTacVietGUI:
         """Xóa log"""
         self.log_text.delete(1.0, tk.END)
     
+    def update_page_range(self, *args):
+        """Cập nhật hiển thị range trang"""
+        try:
+            start = int(self.start_page_var.get() or "1")
+            count = int(self.pages_var.get() or "5")
+            end = start + count - 1
+            self.page_range_var.set(f"Range: {start} → {end}")
+        except (ValueError, AttributeError):
+            self.page_range_var.set("Range: 1 → 5")
+    
     def update_stats(self):
         """Cập nhật thống kê database"""
         try:
@@ -185,10 +217,18 @@ class SangTacVietGUI:
         
         try:
             max_pages = int(self.pages_var.get())
-            if max_pages < 1 or max_pages > 50:
-                raise ValueError()
-        except ValueError:
-            messagebox.showerror("Error", "Max pages must be between 1 and 50!")
+            start_page = int(self.start_page_var.get())
+            if max_pages < 1 or max_pages > 100:
+                raise ValueError("pages")
+            if start_page < 1:
+                raise ValueError("start")
+        except ValueError as e:
+            if str(e) == "pages":
+                messagebox.showerror("Error", "Pages count must be between 1 and 100!")
+            elif str(e) == "start":
+                messagebox.showerror("Error", "Start page must be at least 1!")
+            else:
+                messagebox.showerror("Error", "Please enter valid numbers for pages!")
             return
         
         # Start crawling in thread
@@ -197,7 +237,7 @@ class SangTacVietGUI:
         self.stop_button.config(state='normal')
         self.progress_bar.start()
         
-        self.crawl_thread = threading.Thread(target=self.crawl_worker, args=(url, max_pages))
+        self.crawl_thread = threading.Thread(target=self.crawl_worker, args=(url, max_pages, start_page))
         self.crawl_thread.daemon = True
         self.crawl_thread.start()
     
@@ -210,77 +250,25 @@ class SangTacVietGUI:
         self.progress_var.set("Crawling stopped by user")
         self.log("❌ Crawling stopped by user")
     
-    def crawl_worker(self, url, max_pages):
+    def crawl_worker(self, url, max_pages, start_page=1):
         """Worker function cho crawling"""
         try:
             if not self.crawler:
                 self.crawler = SangTacVietCrawler()
             
+            end_page = start_page + max_pages - 1
             self.log(f"🚀 Starting crawl: {url}")
-            self.log(f"📄 Max pages: {max_pages}")
+            self.log(f"📄 Pages: {start_page} → {end_page} (total: {max_pages})")
             
-            params = self.crawler.parse_search_url(url)
-            if not params:
-                self.log("❌ Invalid search URL!")
-                return
-            
-            self.log(f"🔗 Parsed: minc={params['minc']}, sort={params['sort']}")
-            
-            total_crawled = 0
-            
-            for page in range(1, max_pages + 1):
-                if not self.crawling:
-                    break
-                
-                self.progress_var.set(f"Crawling page {page}/{max_pages}...")
-                self.log(f"\n--- 📄 PAGE {page}/{max_pages} ---")
-                
-                # Search novels
-                novel_urls = self.crawler.search_novels(
-                    params['find'], params['minc'], params['sort'],
-                    params['step'], params['tag'], page
-                )
-                
-                if not novel_urls:
-                    self.log(f"❌ No novels found on page {page}")
-                    break
-                
-                self.log(f"📚 Found {len(novel_urls)} novels")
-                
-                # Crawl each novel
-                page_crawled = 0
-                for i, novel_url in enumerate(novel_urls, 1):
-                    if not self.crawling:
-                        break
-                    
-                    self.progress_var.set(f"Page {page}/{max_pages} - Novel {i}/{len(novel_urls)}")
-                    
-                    novel_data = self.crawler.crawl_novel_detail(novel_url)
-                    if novel_data and self.crawler.save_novel(novel_data):
-                        page_crawled += 1
-                        total_crawled += 1
-                        
-                        title = novel_data['title'][:40]
-                        if len(novel_data['title']) > 40:
-                            title += "..."
-                        
-                        self.log(f"✅ [{i:2d}/{len(novel_urls)}] {title}")
-                        self.log(f"    👤 {novel_data['author']}")
-                        self.log(f"    📖 {novel_data['chapters']} chapters")
-                    else:
-                        self.log(f"❌ [{i:2d}/{len(novel_urls)}] Failed")
-                
-                self.log(f"📊 Page {page}: {page_crawled}/{len(novel_urls)} success")
-                
-                # Update stats
-                self.root.after(0, self.update_stats)
+            # Sử dụng hàm crawl_from_url của crawler
+            total_crawled = self.crawler.crawl_from_url(url, max_pages, start_page)
             
             # Finished
             self.log(f"\n✅ COMPLETED!")
-            self.log(f"📊 Total crawled: {total_crawled} novels")
-            self.log(f"📊 Database total: {self.crawler.get_novels_count()}")
+            self.log(f"📆 New novels added: {total_crawled}")
+            self.log(f"📄 Total in database: {self.crawler.get_novels_count()}")
             
-            self.progress_var.set(f"Completed! Crawled {total_crawled} novels")
+            self.progress_var.set(f"Completed! Added {total_crawled} new novels")
             
         except Exception as e:
             self.log(f"❌ Crawling error: {str(e)}")
